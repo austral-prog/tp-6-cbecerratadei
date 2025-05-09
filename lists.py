@@ -11,7 +11,7 @@ def remove_elements(list_to_remove_elements):
     return remove
 
 def add_elements(list_to_add_elements):
-   add = list_to_add_elements[:]
+    add = list_to_add_elements[:]
 
     add.insert(0, 'Pink')                 
     add.append('Yellow')       
@@ -36,7 +36,7 @@ def check_lists(list_to_compare1, list_to_compare2):
     else:
         return False
 
-def list_of_lists(list_of_lists_to_modify):
+def list_of_lists(listas):
     nueva = listas[:]  
     nueva[0] = nueva[0][:2]
     nueva[1] = nueva[1][1:4]
